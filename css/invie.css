@@ -79,6 +79,13 @@ body {
   margin-left: 30px;
 }
 
+.menu li:before{
+  content: '∘';
+  font-size: 25px;
+  line-height: 2px;
+  color: blue;
+}
+
 
 .logotipo {
   display: inline-block;
@@ -215,3 +222,4 @@ table, td, th {
   border: 1px solid #273b47;
   border-collapse: collapse;
 }
+
